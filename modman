@@ -1,6 +1,4 @@
 app/code/community/Elgentos/CodebaseExceptions app/code/community/Elgentos/CodebaseExceptions
-app/etc/modules/* app/etc/modules/
-
+app/etc/modules/Elgentos_CodebaseExceptions.xml app/etc/modules/Elgentos_CodebaseExceptions.xml
+errors/report.php errors/report.php
 lib/Airbrake lib/Airbrake
-
-@shell cp -f  $MODULE/errors/report.php $PROJECT/errors/report.php
